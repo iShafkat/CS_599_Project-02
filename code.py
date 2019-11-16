@@ -40,4 +40,3 @@ estimators.append(('mlp', KerasClassifier(build_fn=create_model, epochs=300, bat
 pipeline = Pipeline(estimators)
 kfold = StratifiedKFold(n_splits=10, shuffle=True)
 results = cross_val_score(pipeline, X, encoded_Y, cv=kfold)
-print("Visible: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
