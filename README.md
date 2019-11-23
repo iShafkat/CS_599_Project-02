@@ -18,3 +18,10 @@ Training Observation: 60000, Test Observation: 10000
 Each observation contains a 28x28 (784 pixel) input feature. 
 Each observation contains an output id (0-9) of a digit.
 
+# Project Proposal Link:
+https://github.com/iShafkat/CS_599_Project-02/blob/master/PROJECT_2_Week_01.pdf
+
+# Figure:
+![image](https://github.com/iShafkat/CS_599_Project-02/blob/master/figure.JPG)
+
+
