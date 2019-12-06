@@ -10,12 +10,11 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
+import trnsorflow as tf
 # load dataset
-dataframe = read_csv("sonar.csv", header=None)
-dataset = dataframe.values
-# split into input (X) and output (Y) variables
-X = dataset[:,0:60].astype(float)
-Y = dataset[:,60]
+(x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
+
+
 # encode class values as integers
 encoder = LabelEncoder()
 encoder.fit(Y)
