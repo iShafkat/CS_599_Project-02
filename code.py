@@ -1,5 +1,5 @@
 # This code creates neural network with dropout method and 
-#evaluates the classification effor with respect to the dataset size for MNIST dataset.
+#evaluates the classification error with respect to the dataset size for MNIST dataset.
 
 #The following code imports libraries 
 
@@ -30,10 +30,13 @@ def create_model():
 
 
 def main():
+# This is the Main Function of the Code
+# Declaring The variables
     epoch =10
-    correct =0
+    correct, error =0, 0
     size = 100
     classification_error, dataset_size =[], []
+    
     for size in range(10000):
         # load dataset
         (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
@@ -49,8 +52,7 @@ def main():
     
 # The following code is used to calculate the test error
 
-	correct =0
-        error =[]
+
         for i in range(len(predictions)):
             if predictions[i]==y_test[i]:
                 correct +=1
