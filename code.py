@@ -13,7 +13,8 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 
 def create_model():
-    # This function creates the neural network model 
+   
+# This function creates the neural network model 
         
     model = Sequential()
     #model.add(Dropout(0.2, input_shape=(60,)))
@@ -30,6 +31,7 @@ def create_model():
 
 
 def main():
+
 # This is the Main Function of the Code
 # Declaring The variables
     epoch =10
@@ -70,7 +72,7 @@ def main():
     plt.xlabel('Dataset Size')
     plt.plot(classification_error, dataset_size) # This line plots the output figure
     plt.show()                                   # This line prints out the output figure
-    plt.savefig('output.png')			 # This line saves the output figure
+    plt.savefig('output.png')			         # This line saves the output figure
 
 if __name__ == '__main__':
     main()
