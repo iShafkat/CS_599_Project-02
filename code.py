@@ -72,7 +72,7 @@ def main():
     plt.xlabel('Dataset Size')
     plt.plot(classification_error, dataset_size) # This line plots the output figure
     plt.show()                                   # This line prints out the output figure
-    plt.savefig('output.png')			         # This line saves the output figure
+    plt.savefig('Output.png')			         # This line saves the output figure
 
 if __name__ == '__main__':
     main()
