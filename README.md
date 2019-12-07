@@ -11,6 +11,8 @@ numpy and matplotlib.
 # Description
 In this classification project, I implement the dropout method as a regularization term in the neural network. The size of data set would be varied and the corresponding classification error (using dropout and without using dropout) would be measured. By this way the figure would be generated.
 Function: The network will learn a function that predicts a value to represent the estimated probability that an image x has digit class k, for k=1, 2, 3, …., 9.
+
+This is a Digit Recognition Classification Problem
 # Dataset
 Real-World Problem: Classification of Handwritten Digits
 Dataset link: http://yann.lecun.com/exdb/mnist/
