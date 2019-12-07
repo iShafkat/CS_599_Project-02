@@ -1,2 +1,2 @@
-figure.pdf:code.py train-images-idx3-ubyte(2).gz
+Output.png:code.py
 	python code.py 
