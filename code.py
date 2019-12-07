@@ -1,5 +1,5 @@
 # This code creates neural network with dropout method and 
-#evaluates the classification error with respect to the dataset size for MNIST dataset.
+#evaluates the classification error with respect to the dataset size for MNIST dataset. This is a Digit Recognition Classifiaction Problem
 
 #The following code imports libraries 
 
