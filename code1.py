@@ -21,7 +21,7 @@ def main():
     size =1000
     m=1000
     size_table =[]
-    # Load dataket to appropriate valiables
+    # Load dataset to appropriate valiables
     (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
     for size in range(100000):
         
