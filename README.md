@@ -6,6 +6,7 @@ Download/clone the repository to the local machine and run the Makefile. The loc
 python version 3.6 or above 
 
 keras
+
 tensorflow
 
 numpy and matplotlib.
